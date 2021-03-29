@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<audio id="loading" src="assets/music/music.mp3" autoplay="true" hidden="true" loop="true"></audio>
+<div class="hero-section">	
+		<div class="information-text hover-target">Information</div>
+		<div class="discord-text hover-target">Discord</div>
+		<div class="section-center">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<h1>SERVER NAME</h1>
+					</div>
+					<div class="col-12 text-center mt-4 mt-lg-5">
+						<p>
+							<span class="staff hover-target">Staff</span> 
+							<span class="rules hover-target">Rules</span> 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="information-section">	
+		<div class="information-close hover-target"></div>
+		<div class="section-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<img src="assets/img/logo.png" alt="">
+					</div>
+					<div class="col-lg-8 text-center mt-4">
+						<p>Text 1</p>
+					</div>
+					<div class="col-12 text-center">
+						<p>Text 2</p>
+					</div>
+					<div class="col-12 text-center">
+						<p>Text 3</p>
+					</div>
+					<div class="col-12 text-center">
+						<p>Text 4</p>
+					</div>
+					<div class="col-12 text-center">
+						<p>Text 5</p>
+					</div>
+					<div class="col-12 text-center">
+						<p>Text 6</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	
+	<div class="discord-section">	
+		<div class="discord-close hover-target"></div>
+		<div class="section-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<h1>discord.gg/C3aN2bBVbB</h1>
+						<div class="space-discord"></div>
+						<iframe src="https://discord.com/widget?id=778522924847333376&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="staff-section">	
+		<div class="staff-close hover-target"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 text-center">
+					<h3>Staff</h3>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-1.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-2.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-3.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-4.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-5.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<img src="assets/img/staff/staff-6.png" alt="">
+					<h5 class="name-staff">Redven Biker</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="rules-section">	
+		<div class="rules-close hover-target"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 text-center">
+					<h3>Rules</h3>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 1</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 2</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 3</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 4</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 5</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 6</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 7</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 8</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 9</p>
+				</div>
+				<div class="col-12 text-center">
+					<p>Rules 10</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
+
+<a class="link-to-portfolio hover-target"></a>
+  <script src='assets/js/jquery.min.js'></script>
+  <script  src="assets/js/script.js"></script>
+  <script>
+    var play = false;
+            var vid = document.getElementById("loading");
+            vid.volume = 0.1;
+            window.addEventListener('keyup', function(e)
+            {
+                if (e.which == 69){
+                    vid.volume = Math.min(vid.volume + 0.1,1);
+                } else if(e.which == 65){
+                    vid.volume = Math.max(vid.volume - 0.1,0);
+                };
+            });
+    
+            var audio = document.querySelector('audio');
+    
+            if (audio) {
+    
+            window.addEventListener('keydown', function (event) {
+    
+            var key = event.which || event.keyCode;
+    
+            if (key === 32) { // spacebar
+    
+            event.preventDefault();
+    
+            audio.paused ? audio.play() : audio.pause();
+          
+        }
+    
+      });
+    }
+    </script>
+</body>
+</html>
